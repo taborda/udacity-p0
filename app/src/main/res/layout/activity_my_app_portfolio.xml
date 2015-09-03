@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MyAppPortfolio">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_title"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_app1"
+            style="@style/AppButton"
+            android:layout_below="@id/title_text"
+            android:text="@string/app1_name" />
+
+        <Button
+            android:id="@+id/button_app2"
+            style="@style/AppButton"
+            android:layout_below="@id/button_app1"
+            android:text="@string/app2_name" />
+
+        <Button
+            android:id="@+id/button_app3"
+            style="@style/AppButton"
+            android:layout_below="@id/button_app2"
+            android:text="@string/app3_name" />
+
+        <Button
+            android:id="@+id/button_app4"
+            style="@style/AppButton"
+            android:layout_below="@id/button_app3"
+            android:text="@string/app4_name" />
+
+        <Button
+            android:id="@+id/button_app5"
+            style="@style/AppButton"
+            android:layout_below="@id/button_app4"
+            android:text="@string/app5_name" />
+
+        <Button
+            android:id="@+id/button_app6"
+            style="@style/AppButton"
+            android:layout_below="@id/button_app5"
+            android:background="@drawable/button_final_app"
+            android:text="@string/app6_name" />
+
+    </RelativeLayout>
+
+</ScrollView>
